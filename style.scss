@@ -50,11 +50,13 @@ header {
 
     .img {
         grid-area: img;
+        height: auto;
+        width: 500px;
     }
 
     .res {
         height: auto;
-        width: 100%;
+        width: 500px;
     }
 
     .btn {
@@ -81,6 +83,8 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.lang {
+    margin-top: 100px;
     .lang-child {
         background-color: #E1E5F2;
         display: flex;
@@ -88,13 +92,14 @@ header {
         align-items: center;
         height: 100px;
         width: auto;
-        padding-top: 40px;
+        // padding-top: 100px;
         // margin-top: 40px;
         img {
             height: 90px;
             width: 80px;
         }
     }
+}
 
 #my-solution {
     padding-top: 20px;
