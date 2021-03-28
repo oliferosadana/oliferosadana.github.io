@@ -24,7 +24,7 @@ header {
     justify-content: center;
     padding: 50px;
     grid-template-areas: "img par";
-    grid-template-columns: auto auto;
+    grid-template-columns: 60% auto;
     grid-template-rows: auto;
     // background: violet;
     background-color: #E1E5F2;
@@ -50,7 +50,7 @@ header {
 
     .img {
         grid-area: img;
-        height: auto;
+        // height: auto;
         width: 500px;
     }
 
@@ -83,8 +83,6 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.lang {
-    margin-top: 100px;
     .lang-child {
         background-color: #E1E5F2;
         display: flex;
@@ -92,14 +90,13 @@ header {
         align-items: center;
         height: 100px;
         width: auto;
-        // padding-top: 100px;
+        padding-top: 100px;
         // margin-top: 40px;
         img {
             height: 90px;
             width: 80px;
         }
     }
-}
 
 #my-solution {
     padding-top: 20px;
